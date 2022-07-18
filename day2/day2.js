@@ -10,11 +10,10 @@ function intersection(array1, array2) {
             //Check if elements are common and avoid adding duplicate values
             if(array1[i] === array2[j] && !commonArray.includes(array1[i])){
                  commonArray.push(array1[i]) //add new elements to the end of the array
-            }
-
-               
+            }     
         }
     }
+    
     if(commonArray.length == 0){
         console.log("Sorry! There are no common items.")
     }else{
